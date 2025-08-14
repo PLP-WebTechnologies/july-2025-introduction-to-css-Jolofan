@@ -1,0 +1,75 @@
+/* 
+    Assignment: CSS Basics & The Box Model
+    Description: This stylesheet applies basic CSS styling to the Healthy Living & Nutrition webpage.
+    Concepts Covered: 
+        - External CSS linking
+        - CSS selectors
+        - Basic styling properties (color, font-size, background)
+        - Box Model properties (margin, padding, border)
+        - Layout structuring with spacing & alignment
+*/
+
+/* ===== General Page Styling ===== */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean, readable font */
+    margin: 0; /* Removes default browser margin */
+    background-color: #f7f9fa; /* Light background for contrast */
+    color: #333; /* Dark gray text for readability */
+}
+
+/* ===== Header Styling ===== */
+.site-header {
+    background-color: #3cba54; /* Healthy green tone */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centers heading and paragraph */
+    padding: 20px; /* Box Model: internal spacing inside header */
+    border-bottom: 4px solid #2e8b42; /* Bottom border to separate header visually */
+}
+
+/* ===== Navigation Menu ===== */
+.site-nav {
+    background-color: #2e8b42; /* Dark green for nav bar */
+    text-align: center; /* Centers the links horizontally */
+    padding: 10px; /* Space around links */
+}
+
+.site-nav a {
+    color: white; /* White text links */
+    text-decoration: none; /* Removes underline */
+    margin: 0 15px; /* Horizontal spacing between links */
+    font-weight: bold; /* Makes links stand out */
+}
+
+.site-nav a:hover {
+    text-decoration: underline; /* Hover effect for interaction */
+}
+
+/* ===== Content Sections ===== */
+.info-card {
+    background-color: white; /* White background for cards */
+    margin: 20px auto; /* Vertical spacing & center horizontally */
+    padding: 20px; /* Internal spacing inside the card */
+    max-width: 600px; /* Limits card width for readability */
+    border: 2px solid #ddd; /* Border to define card edges */
+    border-radius: 8px; /* Rounded corners for softer look */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Headings inside content */
+.info-card h2 {
+    color: #3cba54; /* Matches header green */
+}
+
+/* List styling */
+.info-card ul {
+    padding-left: 20px; /* Space before bullet points */
+}
+
+/* ===== Footer Styling ===== */
+.site-footer {
+    background-color: #2e8b42;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 4px solid #3cba54; /* Matches header's bottom border style */
+}
